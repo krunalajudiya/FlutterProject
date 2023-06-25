@@ -8,3 +8,4 @@
  - correction Request
  - PaySlip Download
  - HomeScreen widget of punch IN-OUT
+ - support MultiLanguage
