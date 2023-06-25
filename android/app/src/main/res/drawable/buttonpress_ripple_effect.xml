@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<ripple xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:color="#ACD613"-->
+<!--    xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    tools:targetApi="lollipop">-->
+
+<!--    <item>-->
+<!--        <shape android:shape="rectangle">-->
+<!--            <solid android:color="#FFFFFF"/>-->
+<!--            <corners android:radius="8dp"/>-->
+<!--        </shape>-->
+<!--    </item>-->
+
+<!--</ripple>-->
+
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_pressed="true"
+        android:drawable="@drawable/buttonpress_effect"/>
+
+    <item
+        android:state_pressed="false"
+        android:drawable="@drawable/innerbutton_left"/>
+
+</selector>

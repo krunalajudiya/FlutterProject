@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rotate
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fromDegrees="270"
+    android:toDegrees="270">
+
+    <!--styling the progress bar-->
+    <shape
+        android:shape="ring"
+        android:thickness="8dp"
+        android:useLevel="true">
+        <solid
+            android:color="#1A4FA7"/>
+        <corners
+            android:radius="10dp"/>
+<!--        <gradient-->
+<!--            android:angle="0"-->
+<!--            android:endColor="#26B1F3"-->
+<!--            android:startColor="#000000"-->
+<!--            android:type="sweep"-->
+<!--            android:useLevel="false" />-->
+    </shape>
+
+</rotate>
